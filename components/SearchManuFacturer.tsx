@@ -72,3 +72,4 @@ export const SearchManuFacturer = ({ manufacturer, setManuFacturer }: SearchManu
     </div>
   );
 };
+

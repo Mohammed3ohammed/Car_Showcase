@@ -1,5 +1,6 @@
 import { MouseEventHandler } from "react";
 
+
 export interface CustomButtonProps {
     title: string;
     containerStyles?: string;
@@ -27,4 +28,12 @@ make: string;
 model: string;
 transmission: string;
 year: number;
+}
+
+export interface FilterProps  {
+    manufacturers:  string;  
+    year:  number;
+    fule:  string;
+    limit: number;
+    model: string;
 }
